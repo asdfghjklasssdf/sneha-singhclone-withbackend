@@ -1,0 +1,14 @@
+.leetcode-video-container {
+    padding: 20px;
+}
+
+.leetcode-video {
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+}
+
+.leetcode-video-description {
+    margin-top: 20px;
+    font-size: 18px;
+}

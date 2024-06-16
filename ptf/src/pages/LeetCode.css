@@ -1,0 +1,27 @@
+.leetcode-container {
+    padding: 20px;
+}
+
+.leetcode-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.leetcode-problems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.leetcode-problem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.leetcode-problem:hover {
+    background-color: #f0f0f0;
+}

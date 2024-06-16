@@ -1,0 +1,67 @@
+.banner {
+    background-image: url('website.jpg');
+    background-color: white;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 90%;
+    background-attachment: fixed;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.logo .larger-symbol a:hover {
+    color: red; /* Change the hover color as needed */
+}
+
+.larger-symbol {
+    font-size: 40px;
+    color: white;
+}
+
+.banner .menu {
+    float: right;
+    width: 75%;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.content-box-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    flex: 1;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 150px;
+    height: 500px;
+    font-size: 15px;
+    font-color: black;
+}
