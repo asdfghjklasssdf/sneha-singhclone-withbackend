@@ -138,10 +138,9 @@ router.get('/google',
 router.get('/google/callback',
   passport.authenticate('google', { failureRedirect: '/login' }),
   (req, res) => {
-    res.redirect('/Home'); 
+    res.redirect('http://localhost:3001/home'); 
   },
   (err, req, res, next) => {
-    res.redirect('http://localhost:3001/home');
     console.error('Error during Google OAuth callback:', err);
     res.status(500).send('Error during Google OAuth callback');
   }
